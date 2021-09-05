@@ -5,13 +5,21 @@
   "repository": "git@github.com:ipiranhaa/bip39-avatar.git",
   "author": "ipiranhaa <tanatezp@gmail.com>",
   "license": "MIT",
+  "scripts": {
+    "generate": "node src/index.js",
+    "opensea": "node src/opensea.js"
+  },
   "dependencies": {
-    "jdenticon": "^3.1.1"
+    "dappeteer": "^1.0.0",
+    "jdenticon": "^3.1.1",
+    "puppeteer": "^10.2.0"
   },
   "devDependencies": {
     "@types/node": "^16.7.10",
     "@typescript-eslint/eslint-plugin": "^4.30.0",
     "@typescript-eslint/parser": "^4.30.0",
+    "dotenv": "^10.0.0",
     "typescript": "^4.4.2"
-  }
+  },
+  "type": "module"
 }
