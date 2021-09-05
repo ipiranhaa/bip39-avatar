@@ -1,0 +1,17 @@
+{
+  "name": "bip39-avatar",
+  "version": "1.0.0",
+  "main": "src/index.ts",
+  "repository": "git@github.com:ipiranhaa/bip39-avatar.git",
+  "author": "ipiranhaa <tanatezp@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "jdenticon": "^3.1.1"
+  },
+  "devDependencies": {
+    "@types/node": "^16.7.10",
+    "@typescript-eslint/eslint-plugin": "^4.30.0",
+    "@typescript-eslint/parser": "^4.30.0",
+    "typescript": "^4.4.2"
+  }
+}
